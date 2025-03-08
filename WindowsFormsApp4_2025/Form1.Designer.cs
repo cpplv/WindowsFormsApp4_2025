@@ -102,18 +102,31 @@
             // 
             // button5
             // 
+//<<<<<<< master
             this.button5.Location = new System.Drawing.Point(1214, 208);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(150, 40);
             this.button5.TabIndex = 6;
             this.button5.Text = "Roberta";
+//=======
+            this.button6.Location = new System.Drawing.Point(607, 153);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "Anete";
+//>>>>>>> master
             this.button5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+//<<<<<< master
             this.ClientSize = new System.Drawing.Size(1600, 865);
+//=======
+            this.ClientSize = new System.Drawing.Size(800, 450);
+//>>>>>>> master
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -138,6 +151,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
