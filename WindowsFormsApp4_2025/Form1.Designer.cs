@@ -39,9 +39,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(375, 311);
+            this.button1.Location = new System.Drawing.Point(750, 598);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(150, 44);
             this.button1.TabIndex = 0;
             this.button1.Text = "Poga";
             this.button1.UseVisualStyleBackColor = true;
@@ -49,18 +50,20 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(600, 284);
+            this.checkBox1.Location = new System.Drawing.Point(1200, 546);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(102, 17);
+            this.checkBox1.Size = new System.Drawing.Size(196, 29);
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "checkBoxJauns";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(104, 98);
+            this.button2.Location = new System.Drawing.Point(208, 188);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(150, 44);
             this.button2.TabIndex = 2;
             this.button2.Text = "button1";
             this.button2.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(76, 249);
+            this.radioButton1.Location = new System.Drawing.Point(152, 479);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(6);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.Size = new System.Drawing.Size(165, 29);
             this.radioButton1.TabIndex = 3;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
@@ -78,36 +82,51 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(378, 76);
+            this.button3.Location = new System.Drawing.Point(756, 146);
+            this.button3.Margin = new System.Windows.Forms.Padding(6);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(150, 44);
             this.button3.TabIndex = 4;
             this.button3.Text = "Jauna poga";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(607, 68);
+            this.button4.Location = new System.Drawing.Point(1214, 131);
+            this.button4.Margin = new System.Windows.Forms.Padding(6);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(150, 44);
             this.button4.TabIndex = 5;
             this.button4.Text = "Andrejs";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(607, 153);
+//<<<<<<< master
+            this.button5.Location = new System.Drawing.Point(1214, 208);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(150, 40);
             this.button5.TabIndex = 6;
-            this.button5.Text = "Anete";
+            this.button5.Text = "Roberta";
+//=======
+            this.button6.Location = new System.Drawing.Point(607, 153);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "Anete";
+//>>>>>>> master
             this.button5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+//<<<<<< master
+            this.ClientSize = new System.Drawing.Size(1600, 865);
+//=======
             this.ClientSize = new System.Drawing.Size(800, 450);
+//>>>>>>> master
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -115,6 +134,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Forma";
             this.ResumeLayout(false);
@@ -131,6 +151,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
